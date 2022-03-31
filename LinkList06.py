@@ -22,7 +22,5 @@ class Solution:
 if __name__ == "__main__":
     # obj = Solution()
     # obj.reversePrint()
-    s_node = SingleNode([1, 2, 3])
-    while s_node:
-        print(s_node.val)
-        s_node = s_node.next
+    a = [1, 2, 3]
+    print(a[::-1])
